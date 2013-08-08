@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	text-align: center;
+}
+
+.w {
+	margin: 0 auto;
+	width: 960px;
+	text-align: left;
+}
+
+#intro {
+	padding: 20px 0px;
+	font-family: Georgia, "Microsoft YaHei", serif;
+	font-style: italic;
+	line-height: 180%;
+}
+
+#intro strong {
+	color: #FF5B26;
+}
+
+#decs {
+	margin-top: 120px;
+	width: 100%;
+	background: #E6F1F6;
+	box-shadow: inset 0px 3px 3px #B7C7CF;
+	padding: 30px 0 100px;
+	font-family: Georgia, "Microsoft YaHei", serif;
+	color: #9B8466;
+	overflow: auto;
+}
+
+#decs .left {
+	float: left;
+	width: 300px;
+}
+
+#decs .left a {
+	text-decoration: none;
+	color: #9B8466;
+}
+
+#decs .left a:hover {
+	color: #0D5DAD;
+}
+
+#decs .right {
+	float: right;
+	width: 630px;
+}
+
+#decs h1 {
+	font-size: 26px;
+	font-weight: bold;
+	height: 35px;
+}
+
+#decs h2 {
+	font-size: 15px;
+	font-weight: normal;
+	height: 35px;
+}
+
+#github {
+	height: 35px;
+}
+
+#github a {
+	text-indent: -99999em;
+	background: url(image/github.png) no-repeat;
+	margin-right: 10px;
+}
+
+#github .fork {
+	float: left;
+	background-position: left top;
+	width: 54px;
+	height: 20px;
+}
+
+#github .star {
+	float: left;
+	background-position: right top;
+	width: 53px;
+	height: 20px;
+}
+
+#decs h3 {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	height: 30px;
+	padding: 20px 0 10px;
+}
+
+#decs .contact {
+	font-size: 14px;
+	line-height: 32px;
+}
+
+#decs .text {
+	background: #FAF7EA;
+	border: 1px solid #DACC9A;
+	border-radius: 5px;
+	width: 600px;
+	font: 12px/22px Consolas, "Liberation Mono", Courier, monospace;
+	padding: 14px;
+}
+
+#decs .text p {
+	text-indent: 2em;
+}
+
+#decs .right h3 {
+	text-indent: 10px;
+}

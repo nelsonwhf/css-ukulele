@@ -1,0 +1,775 @@
+@charset "utf-8";
+
+
+/* Style Document for UKULELE */
+/* 任何转载本代码，或由此衍生的作品，请务必保留原作者信息（阿博）。*/
+/* Any reproduction of this code, or derivative works, make sure to keep the original author information (AbelYao). */
+
+#ukulele {
+	margin: 0 auto;
+	width: 820px;
+	height: 350px;
+	position: relative;
+	-webkit-transform-origin: center;
+	-moz-transform-origin: center;
+	-o-transform-origin: center;
+	transform-origin: center;
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+#ukulele * {
+	position: absolute;
+}
+
+
+/* Style of Body Part */
+/* 任何转载本代码，或由此衍生的作品，请务必保留原作者信息（阿博）。*/
+/* Any reproduction of this code, or derivative works, make sure to keep the original author information (AbelYao). */
+
+#ukulele .body {
+	left: 0px;
+	top: 0px;
+	width: 435px;
+	height: 330px;
+}
+
+#ukulele .body * {
+	background: #0D5DAD;
+}
+
+#ukulele .body .bg {
+	left: 200px;
+	top: 30px;
+	width: 80px;
+	height: 270px;
+}
+
+#ukulele .body .left {
+	left: 0px;
+	top: 0px;
+	width: 240px;
+	height: 330px;
+	border: 2px solid #000;
+	border-top-left-radius: 120px 165px;
+	border-bottom-left-radius: 120px 165px;
+	border-top-right-radius: 120px 100px;
+	border-bottom-right-radius: 120px 100px;
+}
+
+#ukulele .body .right {
+	right: 0px;
+	top: 42px;
+	width: 172px;
+	height: 246px;
+	border: 1px solid #000;
+	border-top-right-radius: 100px 123px;
+	border-bottom-right-radius: 100px 123px;
+	border-top-left-radius: 86px 30px;
+	border-bottom-left-radius: 86px 27px;
+}
+
+#ukulele .body .round {
+	left: 245px;
+	top: 105px;
+	width: 120px;
+	height: 120px;
+	border: 1px solid #05315A;
+	border-radius: 100%;
+	background: #458CD4;
+}
+
+#ukulele .body .round .figure 
+{
+	left: 18px;
+	top: 18px;
+	background: #74AAE0;
+	width: 82px;
+	height: 82px;
+	border: 1px solid #05315A;
+	-webkit-transform-origin: center;
+	-moz-transform-origin: center;
+	-o-transform-origin: center;
+	transform-origin: center;
+}
+
+#ukulele .body .round .figure1 {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+#ukulele .body .round .figure2 {
+	-webkit-transform: rotate(22.5deg);
+	-moz-transform: rotate(22.5deg);
+	-o-transform: rotate(22.5deg);
+	transform: rotate(22.5deg);
+}
+
+#ukulele .body .round .figure3 {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+#ukulele .body .round .figure4 {
+	-webkit-transform: rotate(67.5deg);
+	-moz-transform: rotate(67.5deg);
+	-o-transform: rotate(67.5deg);
+	transform: rotate(67.5deg);
+}
+
+#ukulele .body .corner {
+	left: 200px;
+	top: 25px;
+	width: 80px;
+	height: 280px;
+	box-shadow: none;
+}
+
+#ukulele .body .corner * {
+	background: #FFF;
+}
+
+#ukulele .body .corner .top {
+	top: -27px;
+	width: 90px;
+	height: 55px;
+	border-bottom: 2px solid #000;
+	border-bottom-right-radius: 80px 42px;
+	-webkit-transform-origin: center;
+	-moz-transform-origin: center;
+	-o-transform-origin: center;
+	transform-origin: center;
+	-webkit-transform: rotate(40deg);
+	-moz-transform: rotate(40deg);
+	-o-transform: rotate(40deg);
+	transform: rotate(40deg);
+	box-shadow: none;
+}
+
+#ukulele .body .corner .bottom {
+	bottom: -30px;
+	width: 90px;
+	height: 55px;
+	border-top: 2px solid #000;
+	border-top-right-radius: 80px 42px;
+	-webkit-transform-origin: center;
+	-moz-transform-origin: center;
+	-o-transform-origin: center;
+	transform-origin: center;
+	-webkit-transform: rotate(-40deg);
+	-moz-transform: rotate(-40deg);
+	-o-transform: rotate(-40deg);
+	transform: rotate(-40deg);
+}
+
+
+/* Style of Stand Part */
+/* 任何转载本代码，或由此衍生的作品，请务必保留原作者信息（阿博）。*/
+/* Any reproduction of this code, or derivative works, make sure to keep the original author information (AbelYao). */
+
+#ukulele .stand {
+	left: 125px;
+	top: 81px;
+	background: #6C5021;
+	height: 165px;
+	width: 20px;
+	border: 2px solid #2E1F08;
+}
+
+#ukulele .stand .half {
+	overflow: hidden;
+	height: 165px;
+	width: 20px;
+}
+
+#ukulele .stand .half .top {
+	left: 0px;
+	top: -10px;
+	background: #C99543;
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+}
+
+#ukulele .stand .half .bottom {
+	left: 0px;
+	bottom: -10px;
+	background: #B4802E;
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+}
+
+#ukulele .stand .nut {
+	left: -1px;
+	top: 42px;
+	background: #AA864D;
+	width: 8px;
+	height: 78px;
+	border: 1px solid #000;
+}
+
+#ukulele .stand .nut .line1,
+#ukulele .stand .nut .line2,
+#ukulele .stand .nut .line3 {
+	left: 0px;
+	top: -1px;
+	background: #FFF;
+	width: 1px;
+	height: 78px;
+	border: 1px solid #000;
+}
+
+#ukulele .stand .nut .line2 {
+	left: 8px;
+}
+
+#ukulele .stand .nut .line3 {
+	left: 16px;
+}
+
+
+/* Style of Neck Part */
+/* 任何转载本代码，或由此衍生的作品，请务必保留原作者信息（阿博）。*/
+/* Any reproduction of this code, or derivative works, make sure to keep the original author information (AbelYao). */
+
+#ukulele .neck {
+	left: 340px;
+	top: 137px;
+	width: 0px;
+	height: 46px;
+	border-left: 362px solid #401C17;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+}
+
+#ukulele .neck .hole {
+	right: 350px;
+	top: -23px;
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+	box-shadow: inset -4px 8px 0px #523912;
+	background: #7E5A27;
+}
+
+#ukulele .neck .nut {
+	right: -1px;
+	background: #FFF;
+	width: 2px;
+	height: 44px;
+	border: 1px solid #000;
+}
+
+#ukulele .neck .fret {
+	right: -1px;
+	background: #FFF;
+	width: 1px;
+	border: 1px solid #000;
+}
+
+#ukulele .neck .fret1 {
+	right: 28px;
+	top: 0;
+	height: 44px;
+}
+
+#ukulele .neck .fret2 {
+	right: 55px;
+	top: 0;
+	height: 44px;
+}
+
+#ukulele .neck .fret3 {
+	right: 80px;
+	top: -1px;
+	height: 46px;
+}
+
+#ukulele .neck .fret4 {
+	right: 104px;
+	top: -2px;
+	height: 48px;
+}
+
+#ukulele .neck .fret5 {
+	right: 127px;
+	top: -2px;
+	height: 48px;
+}
+
+#ukulele .neck .fret6 {
+	right: 149px;
+	top: -3px;
+	height: 50px;
+}
+
+#ukulele .neck .fret7 {
+	right: 170px;
+	top: -3px;
+	height: 50px;
+}
+
+#ukulele .neck .fret8 {
+	right: 189px;
+	top: -3px;
+	height: 50px;
+}
+
+#ukulele .neck .fret9 {
+	right: 208px;
+	top: -4px;
+	height: 52px;
+}
+
+#ukulele .neck .fret10 {
+	right: 226px;
+	top: -4px;
+	height: 52px;
+}
+
+#ukulele .neck .fret11 {
+	right: 242px;
+	top: -4px;
+	height: 52px;
+}
+
+#ukulele .neck .fret12 {
+	right: 259px;
+	top: -5px;
+	height: 54px;
+}
+
+#ukulele .neck .fret13 {
+	right: 274px;
+	top: -5px;
+	height: 54px;
+}
+
+#ukulele .neck .fret14 {
+	right: 289px;
+	top: -5px;
+	height: 54px;
+}
+
+#ukulele .neck .fret15 {
+	right: 303px;
+	top: -5px;
+	height: 54px;
+}
+
+#ukulele .neck .fret16 {
+	right: 316px;
+	top: -6px;
+	height: 56px;
+}
+
+#ukulele .neck .fret17 {
+	right: 328px;
+	top: -6px;
+	height: 56px;
+}
+
+#ukulele .neck .fret18 {
+	right: 340px;
+	top: -6px;
+	height: 56px;
+}
+
+#ukulele .neck .fret19 {
+	right: 351px;
+	top: -6px;
+	height: 56px;
+}
+
+#ukulele .neck .point {
+	top: 20px;
+	background: #E5DEDE;
+	width: 6px;
+	height: 6px;
+	border-radius: 100%;
+}
+
+#ukulele .neck .point1 {
+	right: 114px;
+}
+
+#ukulele .neck .point2 {
+	right: 158px;
+}
+
+#ukulele .neck .point3 {
+	right: 216px;
+}
+
+#ukulele .neck .point4 {
+	right: 249px;
+	top: 8px;
+}
+
+#ukulele .neck .point5 {
+	right: 249px;
+	top: 33px;
+}
+
+#ukulele .neck .point6 {
+	right: 295px;
+}
+
+/* Style of Twists Part */
+/* 任何转载本代码，或由此衍生的作品，请务必保留原作者信息（阿博）。*/
+/* Any reproduction of this code, or derivative works, make sure to keep the original author information (AbelYao). */
+
+#ukulele .twist {
+	left: 702px;
+	top: 134px;
+	width: 105px;
+	height: 64px;
+}
+
+#ukulele .twist .one,
+#ukulele .twist .two,
+#ukulele .twist .three,
+#ukulele .twist .four {
+	background: #F2F3F4;
+	width: 3px;
+	height: 15px;
+	border: 1px solid #C6C6C6;
+}
+
+#ukulele .twist .one {
+	left: 26px;
+	bottom: -3px;
+}
+
+#ukulele .twist .two {
+	left: 62px;
+	bottom: -5px;
+}
+
+#ukulele .twist .three {
+	left: 25px;
+	top: 0px;
+}
+
+#ukulele .twist .four {
+	left: 61px;
+	top: -2px;
+}
+
+#ukulele .twist .turn {
+	background: #F2F3F4;
+	width: 17px;
+	height: 7px;
+	border: 1px solid #C6C6C6;
+	-webkit-transform-origin: center;
+	-moz-transform-origin: center;
+	-o-transform-origin: center;
+	transform-origin: center;
+}
+
+#ukulele .twist .turn1 {
+	left: 19px;
+	bottom: -8px;
+	border-top-left-radius: 6px 3px;
+	border-top-right-radius: 6px 3px;
+	border-bottom-left-radius: 6px 3px;
+	border-bottom-right-radius: 6px 3px;
+	box-shadow: inset -2px -0px 0px #DCC8C1;
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+#ukulele .twist .turn2 {
+	left: 57px;
+	bottom: -10px;
+	width: 13px;
+	border-top-left-radius: 6px 3px;
+	border-top-right-radius: 6px 3px;
+	border-bottom-left-radius: 6px 3px;
+	border-bottom-right-radius: 6px 3px;
+	box-shadow: inset -2px -0px 0px #DCC8C1;
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+#ukulele .twist .turn3 {
+	left: 20px;
+	top: -7px;
+	width: 12px;
+	border-top-left-radius: 6px 3px;
+	border-top-right-radius: 6px 3px;
+	border-bottom-left-radius: 6px 3px;
+	border-bottom-right-radius: 6px 3px;
+	box-shadow: inset -1px -2px 0px #DCC8C1;
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+#ukulele .twist .turn4 {
+	left: 57px;
+	top: -9px;
+	width: 13px;
+	border-top-left-radius: 6px 3px;
+	border-top-right-radius: 6px 3px;
+	border-bottom-left-radius: 6px 3px;
+	border-bottom-right-radius: 6px 3px;
+	box-shadow: inset -1px -1px 0px #DCC8C1;
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+
+/* Style of Head Part */
+/* 任何转载本代码，或由此衍生的作品，请务必保留原作者信息（阿博）。*/
+/* Any reproduction of this code, or derivative works, make sure to keep the original author information (AbelYao). */
+
+#ukulele .head {
+	left: 702px;
+	top: 134px;
+	width: 0px;
+	height: 54px;
+	border-right: 105px solid #0D5DAD;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+}
+
+#ukulele .head .corner,
+#ukulele .head .peg {
+	left: 0px;
+	top: -5px;
+	width: 105px;
+	height: 64px;
+}
+
+#ukulele .head .corner * {
+	background: #FFF;
+}
+
+#ukulele .head .corner .top-left {
+	left: -7px;
+	top: -7px;
+	width: 20px;
+	height: 16px;
+	border-bottom-right-radius: 15px 10px;
+}
+
+#ukulele .head .corner .bottom-left {
+	left: -7px;
+	bottom: -8px;
+	width: 20px;
+	height: 16px;
+	border-top-right-radius: 15px 10px;
+}
+
+#ukulele .head .corner .top-right {
+	right: -10px;
+	top: -35px;
+	width: 30px;
+	height: 60px;
+	border-bottom-left-radius: 40px;
+}
+
+#ukulele .head .corner .bottom-right {
+	right: -10px;
+	bottom: -35px;
+	width: 30px;
+	height: 60px;
+	border-top-left-radius: 40px;
+}
+
+#ukulele .head .corner .middle {
+	right: -15px;
+	top: 12px;
+	width: 20px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+#ukulele .head .peg .one,
+#ukulele .head .peg .two,
+#ukulele .head .peg .three,
+#ukulele .head .peg .four {
+	background: #DCC8C1;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #053B71;
+	border-radius: 100%;
+}
+
+#ukulele .head .peg .one {
+	left: 20px;
+	bottom: 10px;
+}
+
+#ukulele .head .peg .two {
+	left: 55px;
+	bottom: 13px;
+}
+
+#ukulele .head .peg .three {
+	left: 20px;
+	top: 12px;
+}
+
+#ukulele .head .peg .four {
+	left: 55px;
+	top: 15px;
+}
+
+#ukulele .head .peg * .solid {
+	left: 3px;
+	top: -1px;
+	background: #F2EDED;
+	width: 6px;
+	height: 6px;
+	border-radius: 100%;
+	box-shadow: -1px 2px 0px #666;
+}
+
+
+/* Style for String Part */
+/* 任何转载本代码，或由此衍生的作品，请务必保留原作者信息（阿博）。*/
+/* Any reproduction of this code, or derivative works, make sure to keep the original author information (AbelYao). */
+
+#ukulele .strings {
+	left: 138px;
+	top: 137px;
+	width: 562px;
+	height: 60px;
+}
+
+#ukulele .strings .string {
+	left: 0px;
+	background: rgba(255,255,255,.8);
+	width: 562px;
+	height: 1px;
+	-webkit-transform-origin: center;
+	-moz-transform-origin: center;
+	-o-transform-origin: center;
+	transform-origin: center;
+}
+
+#ukulele .strings .string-so {
+	top: 10px;
+	box-shadow: 0px 0px 1px rgba(255,255,255,1);
+	-webkit-transform: rotate(.8deg);
+	-moz-transform: rotate(.8deg);
+	-o-transform: rotate(.8deg);
+	transform: rotate(.8deg);
+}
+
+#ukulele .strings .string-do {
+	top: 23px;
+	box-shadow: 0px 0px 2px rgba(255,255,255,1);
+}
+
+#ukulele .strings .string-mi {
+	top: 36px;
+	box-shadow: 0px 0px 2px rgba(255,255,255,.5);
+	-webkit-transform: rotate(-0.3deg);
+	-moz-transform: rotate(-0.3deg);
+	-o-transform: rotate(-0.3deg);
+	transform: rotate(-0.3deg);
+}
+
+#ukulele .strings .string-la {
+	top: 50px;
+	box-shadow: 0px 0px 1px rgba(255,255,255,0);
+	-webkit-transform: rotate(-0.8deg);
+	-moz-transform: rotate(-0.8deg);
+	-o-transform: rotate(-0.8deg);
+	transform: rotate(-0.8deg);
+}
+
+#ukulele .strings .nut {
+	left: -12px;
+	background: rgba(255,255,255,0);
+	width: 10px;
+	height: 1px;
+	border-top: 1px solid rgba(255,255,255,.8);
+	border-left: 1px solid rgba(255,255,255,.8);
+	border-right: 1px solid rgba(255,255,255,.8);
+	border-top-right-radius: 7px 4px;
+	border-top-left-radius: 7px 7px;
+}
+
+#ukulele .strings .nut-so {
+	top: 4px;
+}
+
+#ukulele .strings .nut-do {
+	top: 21px;
+}
+
+#ukulele .strings .nut-mi {
+	top: 35px;
+}
+
+#ukulele .strings .nut-la {
+	top: 52px;
+}
+
+#ukulele .strings .tie {
+	left: 562px;
+	background: rgba(255,255,255,.8);
+	height: 1px;
+	-webkit-transform-origin: center;
+	-moz-transform-origin: center;
+	-o-transform-origin: center;
+	transform-origin: center;
+}
+
+#ukulele .strings .tie-so {
+	top: 15px;
+	width: 25px;
+	box-shadow: 0px 0px 1px rgba(255,255,255,1);
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-o-transform: rotate(3deg);
+	transform: rotate(3deg);
+}
+
+#ukulele .strings .tie-do {
+	top: 21px;
+	width: 59px;
+	box-shadow: 0px 0px 2px rgba(255,255,255,1);
+	-webkit-transform: rotate(-4deg);
+	-moz-transform: rotate(-4deg);
+	-o-transform: rotate(-4deg);
+	transform: rotate(-4deg);
+}
+
+#ukulele .strings .tie-mi {
+	top: 37px;
+	width: 59px;
+	box-shadow: 0px 0px 2px rgba(255,255,255,.5);
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+#ukulele .strings .tie-la {
+	top: 45px;
+	width: 25px;
+	box-shadow: 0px 0px 1px rgba(255,255,255,0);
+	-webkit-transform: rotate(-4deg);
+	-moz-transform: rotate(-4deg);
+	-o-transform: rotate(-4deg);
+	transform: rotate(-4deg);
+}
