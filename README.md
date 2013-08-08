@@ -1,7 +1,7 @@
 A UKULELE BY HTML/CSS
 =====================
 
-LIVE DEMO: http://abelyao.github.io/ukulele/
+DEMO: http://abelyao.github.io/ukulele/
 --------------------------------------------
 
 ### I wrote a UKULELE with HTML/CSS3 code, because my ukulele was be borroweb..  
